@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/User/github project/Selenium">
+        <classes>
+            <class name="testng.ClassAnnotationTest">
+                <methods>
+                    <include name="loginShouldSucceed"/>
+                    <include name="checkFirstProduct"/>
+                    <include name="checkTitle"/>
+                </methods>
+            </class>
+            <class name="testng.MethodAnnotationTest">
+                <methods>
+                    <include name="loginShouldSucceed"/>
+                    <include name="checkFirstProduct"/>
+                    <include name="checkTitle"/>
+                </methods>
+            </class>
+            <class name="testng.TestCases">
+                <methods>
+                    <include name="loginShouldSucceed"/>
+                    <include name="checkFirstProduct"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
